@@ -1,0 +1,6 @@
+{
+	"host": "spdvi.mysql.database.azure.com",
+	"user": "spdviuser",
+	"password": "spdvipass",
+	"database": "classicmodels"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "firsttermproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "jaume",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^21.3.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "jquery": "^3.6.1",
+    "mysql": "^2.18.1"
+  }
+}
