@@ -1,10 +1,5 @@
 @import "./node_modules/bootstrap/dist/css/bootstrap.min.css";
 
-body {
-	margin: 0;
-	padding: 0;
-}
-
 #products {
 	height: 100vh;
 	overflow-y: auto;
@@ -17,6 +12,6 @@ td,th {
 }
 
 .carImage {
-	width: auto;
-	height: auto;
+	width: 50%;
+	height: 50%;
 }

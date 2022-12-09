@@ -1,0 +1,13 @@
+@import "./node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+#products{
+	padding: 10%;
+}
+
+.card{
+	width: 33%;
+}
+
+body{
+	padding: 10%;
+}

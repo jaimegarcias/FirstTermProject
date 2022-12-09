@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Hello World!</title>
+	<script src="./renderer.js"></script>
+	<link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+	<h1 id="carFormTitle" hidden>Update car</h1>
+	<form id="carForm" hidden>
+		<div class="form-row">
+			<div class="form-group col-md-4" hidden>
+				<label for="productCode">Product code</label>
+				<input required type="text" class="form-control" id="productCode" placeholder="ABC_120">
+			</div>
+			<div class="form-group col-md-4">
+				<label for="productName">Product name</label>
+				<input required type="text" class="form-control" id="productName" placeholder="Jaguar">
+			</div>
+		</div>
+
+		<div class="form-group col-md-4">
+			<label for="quantityInStock">Quantity in stock</label>
+			<input required type="number" class="form-control" id="quantityInStock" placeholder="20">
+		</div>
+			<div class="form-group col-md-4">
+				<label for="buyPrice">Buy price</label>
+				<input required type="number" class="form-control" id="buyPrice">
+			</div>
+		<div class="form-row">
+			<div class="form-group col-md-4">
+				<label for="imageURL">Image URL</label>
+				<input required type="url" class="form-control" id="imageURL">
+			</div>
+		</div>
+
+		<div class="md-4">
+			<label for="productDescription" class="form-label">Product description</label>
+			<textarea required class="form-control" id="productDescription" rows="3"></textarea>
+		</div>
+		<button type="submit" class="btn btn-primary">Update</button>
+	</form>
+	<table class="table table-dark table-bordered">
+		<thead>
+			<tr>
+				<th scope="col">Id</th>
+				<th scope="col">Name</th>
+				<th scope="col">Description</th>
+				<th scope="col">Stock</th>
+				<th scope="col">Unit price</th>
+				<th scope="col">Image</th>
+				<th scope="col">Edit</th>
+				<th scope="col">Delete</th>
+			</tr>
+		</thead>
+		<tbody id="products"></tbody>
+		</tbody>
+	</table>
+</body>
+
+</html>
